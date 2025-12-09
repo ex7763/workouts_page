@@ -5,6 +5,12 @@ const MAPBOX_TOKEN =
   // (please refer to https://github.com/yihong0618/running_page/issues/643#issuecomment-2042668580)
   'pk.eyJ1IjoiaHBjY3MwOGciLCJhIjoiY201MTkxYXphMWR0MDJscHoyam1xYm80MCJ9.LrTQW4U2yi2AGZNTuPC3og';
 const MUNICIPALITY_CITIES_ARR = [
+  '北京市',
+  '上海市',
+  '天津市',
+  '重庆市',
+  '香港特别行政区',
+  '澳门特别行政区',
 ];
 const MAP_LAYER_LIST = [
   'road-label',
