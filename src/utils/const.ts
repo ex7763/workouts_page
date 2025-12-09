@@ -5,12 +5,6 @@ const MAPBOX_TOKEN =
   // (please refer to https://github.com/yihong0618/running_page/issues/643#issuecomment-2042668580)
   'pk.eyJ1IjoiaHBjY3MwOGciLCJhIjoiY201MTkxYXphMWR0MDJscHoyam1xYm80MCJ9.LrTQW4U2yi2AGZNTuPC3og';
 const MUNICIPALITY_CITIES_ARR = [
-  '北京市',
-  '上海市',
-  '天津市',
-  '重庆市',
-  '香港特别行政区',
-  '澳门特别行政区',
 ];
 const MAP_LAYER_LIST = [
   'road-label',
@@ -51,7 +45,7 @@ const SHOW_ELEVATION_GAIN = true;
 const RICH_TITLE = true;
 
 // IF you are outside China please make sure IS_CHINESE = false
-const IS_CHINESE = true;
+const IS_CHINESE = false;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `户外运动 ${yearLength} 年 ` +
@@ -241,9 +235,9 @@ export const SWIM_COLOR = [gold, gold];
 export const ROWING_COLOR = [cyan, cyan];
 export const ROAD_TRIP_COLOR = [purple, purple];
 export const FLIGHT_COLOR = [dark_vanilla, dark_vanilla];
-export const KAYAKING_COLOR = [red, red];
+export const KAYAKING_COLOR = [IKB, IKB];
 export const SNOWBOARD_COLOR = [dark_vanilla, dark_vanilla];
-export const TRAIL_RUN_COLOR = [IKB, IKB];
+export const TRAIL_RUN_COLOR = [red, red];
 export const PROVINCE_FILL_COLOR = '#47b8e0';
 export const COUNTRY_FILL_COLOR = dark_vanilla;
 
